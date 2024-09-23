@@ -2,7 +2,6 @@ package sep.ex_0130902024;
 
 public class lab0013 {
     public static void main(String[] args) {
-        // string formatting
         // print the table of 10
         // %d = any integer, byte, short ,long
         int num =  10;
