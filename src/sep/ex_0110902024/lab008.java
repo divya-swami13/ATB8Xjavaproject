@@ -12,5 +12,6 @@ public class lab008 {
         // b] floating type
         //    1] float
         //    2] double
+
     }
 }

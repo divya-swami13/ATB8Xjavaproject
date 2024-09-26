@@ -1,7 +1,8 @@
 package sep.ex_0130902024;
 
-public class lab0013 {
+public class lab0013_Task {
     public static void main(String[] args) {
+        // Task--1 13-9-2024
         // print the table of 10
         // %d = any integer, byte, short ,long
         int num =  10;
