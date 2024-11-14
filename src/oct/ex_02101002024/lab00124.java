@@ -15,5 +15,6 @@ public class lab00124 {
         }
         System.out.println("End");
 
+
     }
 }
