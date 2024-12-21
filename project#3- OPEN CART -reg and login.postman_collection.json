@@ -1,0 +1,286 @@
+{
+	"info": {
+		"_postman_id": "7b4d26b9-f3d1-4b36-bc5f-1f933cc4dcbb",
+		"name": "project#3- OPEN CART -reg and login",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "40075973"
+	},
+	"item": [
+		{
+			"name": "open cart reg and login ",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+					},
+					{
+						"key": "accept-language",
+						"value": "en-US,en;q=0.9"
+					},
+					{
+						"key": "cache-control",
+						"value": "max-age=0"
+					},
+					{
+						"key": "cookie",
+						"value": "PHPSESSID=d762c736b481f78bb1bea38ada; _gid=GA1.2.1602623750.1734704603; cf_clearance=kU8p0ehcv8xi19EXbTOG2lgwbPpazM4j8qgMo3H0bmU-1734704643-1.2.1.1-UUp1Ma1YoCRqdZMRspl7yt1W7ywzrnamliJzcY1F2FTZggWqqrJnzj63ooSBirW2kCq4TsUgw1YN73y7UJNjgJAWesAaah8CmJ8vAmkGvh.cQboVBAqBOQH3Dcg80nKwvsrayRm_2ynveByyGJBeECSCU9GaKkFZVIy4XH2hmKGpnjzOBt3R2X3D2QsbvxnrwAt7xFt3IBobxE5n2zQ9KRCcQNCG5pz6nQ4BewrWKtLD0bQgn6QPAU1lmRCK4FqffaK8vljwZeXKj3GhhE.V9QdGwClTkCyQW3FABbpqH36OJOndCKpP3GtvqPt8VNfuw8a5OcAxVUY2a2S31IDiOzFhH_YW9gvVPvcGOryDcyE9ImIY7GKhRMIWexDcGE.rMKUo3hGGlfMIfF3t.3CiUYznucsrAL9aadKi.l1sT2.tVHrYIvhMD4mk_uRTcj.j; _gat_gtag_UA_1988725_1=1; _ga_X8G0BRFSDF=GS1.1.1734704602.1.1.1734704722.0.0.0; _ga=GA1.2.432571725.1734704603; _gcl_au=1.1.1782618518.1734704602.1694667142.1734704651.1734704738"
+					},
+					{
+						"key": "origin",
+						"value": "https://www.opencart.com"
+					},
+					{
+						"key": "priority",
+						"value": "u=0, i"
+					},
+					{
+						"key": "referer",
+						"value": "https://www.opencart.com/index.php?route=account/register&register_token=9d91433409045948ea533c065e"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\""
+					},
+					{
+						"key": "sec-ch-ua-arch",
+						"value": "\"x86\""
+					},
+					{
+						"key": "sec-ch-ua-bitness",
+						"value": "\"64\""
+					},
+					{
+						"key": "sec-ch-ua-full-version",
+						"value": "\"131.0.6778.205\""
+					},
+					{
+						"key": "sec-ch-ua-full-version-list",
+						"value": "\"Google Chrome\";v=\"131.0.6778.205\", \"Chromium\";v=\"131.0.6778.205\", \"Not_A Brand\";v=\"24.0.0.0\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-model",
+						"value": "\"\""
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "sec-ch-ua-platform-version",
+						"value": "\"10.0.0\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "document"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "navigate"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-origin"
+					},
+					{
+						"key": "sec-fetch-user",
+						"value": "?1"
+					},
+					{
+						"key": "upgrade-insecure-requests",
+						"value": "1"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "username",
+							"value": "swami13",
+							"type": "text"
+						},
+						{
+							"key": "firstname",
+							"value": "divya",
+							"type": "text"
+						},
+						{
+							"key": "lastname",
+							"value": "swami",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "swamidivya929@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "country_id",
+							"value": "99",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "E!dS$6yDvEyahCP",
+							"type": "text"
+						},
+						{
+							"key": "redirect",
+							"value": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://www.opencart.com/index.php?route=account/register&register_token=32e1851b12531ffa5b4f794d81",
+					"protocol": "https",
+					"host": [
+						"www",
+						"opencart",
+						"com"
+					],
+					"path": [
+						"index.php"
+					],
+					"query": [
+						{
+							"key": "route",
+							"value": "account/register"
+						},
+						{
+							"key": "register_token",
+							"value": "32e1851b12531ffa5b4f794d81"
+						}
+					]
+				},
+				"description": "Generated from cURL: curl 'https://www.opencart.com/index.php?route=account/register&register_token=32e1851b12531ffa5b4f794d81' \\\r\n  -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7' \\\r\n  -H 'accept-language: en-US,en;q=0.9' \\\r\n  -H 'cache-control: max-age=0' \\\r\n  -H 'content-type: multipart/form-data; boundary=----WebKitFormBoundaryFuNJYHDTZZj11BmB' \\\r\n  -H 'cookie: PHPSESSID=d762c736b481f78bb1bea38ada; _gid=GA1.2.1602623750.1734704603; cf_clearance=kU8p0ehcv8xi19EXbTOG2lgwbPpazM4j8qgMo3H0bmU-1734704643-1.2.1.1-UUp1Ma1YoCRqdZMRspl7yt1W7ywzrnamliJzcY1F2FTZggWqqrJnzj63ooSBirW2kCq4TsUgw1YN73y7UJNjgJAWesAaah8CmJ8vAmkGvh.cQboVBAqBOQH3Dcg80nKwvsrayRm_2ynveByyGJBeECSCU9GaKkFZVIy4XH2hmKGpnjzOBt3R2X3D2QsbvxnrwAt7xFt3IBobxE5n2zQ9KRCcQNCG5pz6nQ4BewrWKtLD0bQgn6QPAU1lmRCK4FqffaK8vljwZeXKj3GhhE.V9QdGwClTkCyQW3FABbpqH36OJOndCKpP3GtvqPt8VNfuw8a5OcAxVUY2a2S31IDiOzFhH_YW9gvVPvcGOryDcyE9ImIY7GKhRMIWexDcGE.rMKUo3hGGlfMIfF3t.3CiUYznucsrAL9aadKi.l1sT2.tVHrYIvhMD4mk_uRTcj.j; _gat_gtag_UA_1988725_1=1; _ga_X8G0BRFSDF=GS1.1.1734704602.1.1.1734704722.0.0.0; _ga=GA1.2.432571725.1734704603; _gcl_au=1.1.1782618518.1734704602.1694667142.1734704651.1734704738' \\\r\n  -H 'origin: https://www.opencart.com' \\\r\n  -H 'priority: u=0, i' \\\r\n  -H 'referer: https://www.opencart.com/index.php?route=account/register&register_token=9d91433409045948ea533c065e' \\\r\n  -H 'sec-ch-ua: \"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"' \\\r\n  -H 'sec-ch-ua-arch: \"x86\"' \\\r\n  -H 'sec-ch-ua-bitness: \"64\"' \\\r\n  -H 'sec-ch-ua-full-version: \"131.0.6778.205\"' \\\r\n  -H 'sec-ch-ua-full-version-list: \"Google Chrome\";v=\"131.0.6778.205\", \"Chromium\";v=\"131.0.6778.205\", \"Not_A Brand\";v=\"24.0.0.0\"' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'sec-ch-ua-model: \"\"' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' \\\r\n  -H 'sec-ch-ua-platform-version: \"10.0.0\"' \\\r\n  -H 'sec-fetch-dest: document' \\\r\n  -H 'sec-fetch-mode: navigate' \\\r\n  -H 'sec-fetch-site: same-origin' \\\r\n  -H 'sec-fetch-user: ?1' \\\r\n  -H 'upgrade-insecure-requests: 1' \\\r\n  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36' \\\r\n  --data-raw $'------WebKitFormBoundaryFuNJYHDTZZj11BmB\\r\\nContent-Disposition: form-data; name=\"username\"\\r\\n\\r\\nswami13\\r\\n------WebKitFormBoundaryFuNJYHDTZZj11BmB\\r\\nContent-Disposition: form-data; name=\"firstname\"\\r\\n\\r\\ndivya\\r\\n------WebKitFormBoundaryFuNJYHDTZZj11BmB\\r\\nContent-Disposition: form-data; name=\"lastname\"\\r\\n\\r\\nswami\\r\\n------WebKitFormBoundaryFuNJYHDTZZj11BmB\\r\\nContent-Disposition: form-data; name=\"email\"\\r\\n\\r\\nswamidivya929@gmail.com\\r\\n------WebKitFormBoundaryFuNJYHDTZZj11BmB\\r\\nContent-Disposition: form-data; name=\"country_id\"\\r\\n\\r\\n99\\r\\n------WebKitFormBoundaryFuNJYHDTZZj11BmB\\r\\nContent-Disposition: form-data; name=\"password\"\\r\\n\\r\\nE\\u0021dS$6yDvEyahCP\\r\\n------WebKitFormBoundaryFuNJYHDTZZj11BmB\\r\\nContent-Disposition: form-data; name=\"redirect\"\\r\\n\\r\\n\\r\\n------WebKitFormBoundaryFuNJYHDTZZj11BmB--\\r\\n'"
+			},
+			"response": []
+		},
+		{
+			"name": "open cart reg login",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+					},
+					{
+						"key": "accept-language",
+						"value": "en-US,en;q=0.9"
+					},
+					{
+						"key": "cache-control",
+						"value": "max-age=0"
+					},
+					{
+						"key": "cookie",
+						"value": "_gid=GA1.2.1602623750.1734704603; cf_clearance=EL0dGwyk1IETdFBCO_PwEdco9Yi6Zi7SuQV25ZKSpJw-1734705063-1.2.1.1-m2N76IaifiwvU_nfctNyvWRDr0fYAGTGFhckVEijNRr.d2Rtuh6IxA3iHkkUAYmpb2UfmpsDcsePLxOTWSbEa_feuA3j.OfsAD8mt49ECBsiaAu6u6u5tERWxN49qaTRJUVDOsmt.Q3dxo3NsovH8h.NI7sBMuhA8OZQq5gvodirpmIhB5w2ve.0c161Iyi2bmO9vnNsSrvG_RhzKJgDDkuXeb3i5_nS_yMTrM9p0ZkEVtDTD5kyap7Z8kUst9BZso28wXS0wl1qLcN5H7Xvua36KiLVQRrNB3Ocbh1zatXT.bATTFnfJ8VPyLzUNBURkTKrHNPavuihLJNCEjHc8N0iNZVTJwTJhe.qBd1.pCeagT1dpvwAgJGEaINZbV9VyxN4LZZBYo2LbfSjwEMjZp1Mw2CBeUxpXBdG8h_ggeuBdPbp019Rn_4OTRRzA_u7; logged=0; PHPSESSID=05f708c45ffbba6e51b8432e7c; _gcl_au=1.1.1782618518.1734704602.1694667142.1734704651.1734705364; _gat_gtag_UA_1988725_1=1; _ga_X8G0BRFSDF=GS1.1.1734704602.1.1.1734705384.0.0.0; _ga=GA1.2.432571725.1734704603; opencart=1168012.67657fb4c4bcb"
+					},
+					{
+						"key": "priority",
+						"value": "u=0, i"
+					},
+					{
+						"key": "referer",
+						"value": "https://www.opencart.com/index.php?route=account/pin&member_token=ab503bc323a5278d820572c2aa6331c2"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\""
+					},
+					{
+						"key": "sec-ch-ua-arch",
+						"value": "\"x86\""
+					},
+					{
+						"key": "sec-ch-ua-bitness",
+						"value": "\"64\""
+					},
+					{
+						"key": "sec-ch-ua-full-version",
+						"value": "\"131.0.6778.205\""
+					},
+					{
+						"key": "sec-ch-ua-full-version-list",
+						"value": "\"Google Chrome\";v=\"131.0.6778.205\", \"Chromium\";v=\"131.0.6778.205\", \"Not_A Brand\";v=\"24.0.0.0\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-model",
+						"value": "\"\""
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "sec-ch-ua-platform-version",
+						"value": "\"10.0.0\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "document"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "navigate"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-origin"
+					},
+					{
+						"key": "sec-fetch-user",
+						"value": "?1"
+					},
+					{
+						"key": "upgrade-insecure-requests",
+						"value": "1"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+					}
+				],
+				"url": {
+					"raw": "https://www.opencart.com/index.php?route=account/account&member_token=ab503bc323a5278d820572c2aa6331c2",
+					"protocol": "https",
+					"host": [
+						"www",
+						"opencart",
+						"com"
+					],
+					"path": [
+						"index.php"
+					],
+					"query": [
+						{
+							"key": "route",
+							"value": "account/account"
+						},
+						{
+							"key": "member_token",
+							"value": "ab503bc323a5278d820572c2aa6331c2"
+						}
+					]
+				},
+				"description": "Generated from cURL: curl 'https://www.opencart.com/index.php?route=account/account&member_token=ab503bc323a5278d820572c2aa6331c2' \\\r\n  -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7' \\\r\n  -H 'accept-language: en-US,en;q=0.9' \\\r\n  -H 'cache-control: max-age=0' \\\r\n  -H 'cookie: _gid=GA1.2.1602623750.1734704603; cf_clearance=EL0dGwyk1IETdFBCO_PwEdco9Yi6Zi7SuQV25ZKSpJw-1734705063-1.2.1.1-m2N76IaifiwvU_nfctNyvWRDr0fYAGTGFhckVEijNRr.d2Rtuh6IxA3iHkkUAYmpb2UfmpsDcsePLxOTWSbEa_feuA3j.OfsAD8mt49ECBsiaAu6u6u5tERWxN49qaTRJUVDOsmt.Q3dxo3NsovH8h.NI7sBMuhA8OZQq5gvodirpmIhB5w2ve.0c161Iyi2bmO9vnNsSrvG_RhzKJgDDkuXeb3i5_nS_yMTrM9p0ZkEVtDTD5kyap7Z8kUst9BZso28wXS0wl1qLcN5H7Xvua36KiLVQRrNB3Ocbh1zatXT.bATTFnfJ8VPyLzUNBURkTKrHNPavuihLJNCEjHc8N0iNZVTJwTJhe.qBd1.pCeagT1dpvwAgJGEaINZbV9VyxN4LZZBYo2LbfSjwEMjZp1Mw2CBeUxpXBdG8h_ggeuBdPbp019Rn_4OTRRzA_u7; logged=0; PHPSESSID=05f708c45ffbba6e51b8432e7c; _gcl_au=1.1.1782618518.1734704602.1694667142.1734704651.1734705364; _gat_gtag_UA_1988725_1=1; _ga_X8G0BRFSDF=GS1.1.1734704602.1.1.1734705384.0.0.0; _ga=GA1.2.432571725.1734704603; opencart=1168012.67657fb4c4bcb' \\\r\n  -H 'priority: u=0, i' \\\r\n  -H 'referer: https://www.opencart.com/index.php?route=account/pin&member_token=ab503bc323a5278d820572c2aa6331c2' \\\r\n  -H 'sec-ch-ua: \"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"' \\\r\n  -H 'sec-ch-ua-arch: \"x86\"' \\\r\n  -H 'sec-ch-ua-bitness: \"64\"' \\\r\n  -H 'sec-ch-ua-full-version: \"131.0.6778.205\"' \\\r\n  -H 'sec-ch-ua-full-version-list: \"Google Chrome\";v=\"131.0.6778.205\", \"Chromium\";v=\"131.0.6778.205\", \"Not_A Brand\";v=\"24.0.0.0\"' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'sec-ch-ua-model: \"\"' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' \\\r\n  -H 'sec-ch-ua-platform-version: \"10.0.0\"' \\\r\n  -H 'sec-fetch-dest: document' \\\r\n  -H 'sec-fetch-mode: navigate' \\\r\n  -H 'sec-fetch-site: same-origin' \\\r\n  -H 'sec-fetch-user: ?1' \\\r\n  -H 'upgrade-insecure-requests: 1' \\\r\n  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'"
+			},
+			"response": []
+		}
+	]
+}
