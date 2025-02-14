@@ -1,0 +1,189 @@
+{
+	"info": {
+		"_postman_id": "8e4f63b6-754a-4e5e-a220-be45130087dc",
+		"name": "project#4AMAZON",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "40075973"
+	},
+	"item": [
+		{
+			"name": "https://www.amazon.in/ap/cvf/accountrecovery/collectnewpassword?sif_profile=cse_processed_form",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+					},
+					{
+						"key": "accept-language",
+						"value": "en-US,en;q=0.9"
+					},
+					{
+						"key": "cache-control",
+						"value": "max-age=0"
+					},
+					{
+						"key": "content-type",
+						"value": "application/x-www-form-urlencoded"
+					},
+					{
+						"key": "cookie",
+						"value": "session-id=258-1688510-9931462; ubid-acbin=261-6422916-2929130; id_pkel=n0; id_pk=eyJuIjoiMCIsImFmIjoiMSJ9; csm-sid=866-1686896-2439545; sst-acbin=Sst1|PQHN1D178rI90hsQLCLsMOP9Bx04b7i0pUJGRC7UQPNr18484wWh8SuYLI1fM0Wpwd8s-A2Zmsg9WF3xiGo3ResaXCxjVCFar3Tuh_6kWaXzaQ_ZvvvtFExtz57mY32f0hxYbB3KhJJq_Jo5scLEvhyEkKXQa9UjIFmnIwgX8PPEZbcJ13RnJSYpnXtaPPOCiF-O5WhwL3zrjCms6UAdOuRxwFhnKp5WUDA7aAQstx3ZszF39DjU31bf8On9kyySpLST; i18n-prefs=INR; csm-hit=tb:WKPM1XF0VYKDE0D1F0A5+s-10R1RKYAK78D50FGNQVN|1738938450099&t:1738938450099&adb:adblk_no; JSESSIONID=526FD7CEC07AFA1A03F2566A76E94FAD; session-id-time=2082787201l; session-token=Jvp3D45D4BDtrf3vvtR1aayP0v6b35w7caGvhGGw+bMxraY5fM+mTaWmR9Bd8LHRtlw+DPkuiuC/gnkethwV8kuA3SuD3lgL3PmT8QXtAEuPo5R7mKLmBzScYf8aAaloyTPkyFIsNK/6JJ3yOtHs7YKCsbh5cj44AWQ1Oc+9WI2QPbae3uN+6lLlL6vRcPnGasctwiGnPEE8ytFsy9V4yBeEYXMUl/Al3XwShuA211dyNQluO/9jIb2jxebgVsYoSvFcCri55fDX5CX+1Xufi9AzJLLQFJ6jPX1qzueHdTOvY+tB1NqIz0kA3p4Z3G7CWWZken5ajiDLscMJ46qweyOUDL6EcfsV"
+					},
+					{
+						"key": "device-memory",
+						"value": "4"
+					},
+					{
+						"key": "downlink",
+						"value": "10"
+					},
+					{
+						"key": "dpr",
+						"value": "1"
+					},
+					{
+						"key": "ect",
+						"value": "4g"
+					},
+					{
+						"key": "origin",
+						"value": "https://www.amazon.in"
+					},
+					{
+						"key": "priority",
+						"value": "u=0, i"
+					},
+					{
+						"key": "referer",
+						"value": "https://www.amazon.in/ap/cvf/accountrecovery/collectnewpassword?arb=f7659f93-f1eb-4522-b17a-8410abbb120b&orig_return_to=https%3A%2F%2Fwww.amazon.in%2Fap%2Fforgotpassword%3Fopenid.pape.preferred_auth_policies%3Dhttp%253A%252F%252Fschemas.openid.net%252Fpape%252Fpolicies%252F2007%252F06%252Fnone%26openid.pape.max_auth_age%3D900%26openid.return_to%3Dhttps%253A%252F%252Fwww.amazon.in%252Fgp%252Fhomepage.html%253F_encoding%253DUTF8%2526ref_%253Dnavm_em_signin%2526action%253Dsign-out%2526path%253D%25252Fgp%25252Fhomepage.html%25253F_encoding%25253DUTF8%252526ref_%25253Dnavm_em_signin%2526signIn%253D1%2526useRedirectOnSuccess%253D1%2526ref_%253Dnav_em_signout_0_1_1_40%26data%3DeyJ6aXAiOiJERUYiLCJlbmMiOiJBMjU2R0NNIiwiYWxnIjoiQTI1NktXIn0.l-MUBjure5JPPPyPeRBSylqbX-xyNnniaViRGV3H6B7DiesmlrG5vg.C0zr8CxmNKKL2yXz.GS4O0FozvuUh-5c5YiCO-aDBJwh7VJfR4Ta9XCjRkbY0mR4w0PCb34mZ_nbdk8BHUmeQhL3cS9rwTlQMeLjKDfH_REli7PvPeK59BGOyPaMSjhERiPhGikUbo-TXgOLsmmYof0aPIEb0tGDFmNNW_v1sK_S_tKuwryACdFC7RCOJbL2HE25EF83-MfQ.y7YBr_l_P-niSTajDve5HA%26openid.assoc_handle%3Dinflex%26openid.mode%3Dcheckid_setup%26pageId%3Dinflex%26useSHuMAWorkflow%3Dfalse%26openid.ns%3Dhttp%253A%252F%252Fspecs.openid.net%252Fauth%252F2.0&pageId=inflex&openid.assoc_handle=inflex"
+					},
+					{
+						"key": "rtt",
+						"value": "100"
+					},
+					{
+						"key": "sec-ch-device-memory",
+						"value": "4"
+					},
+					{
+						"key": "sec-ch-dpr",
+						"value": "1"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not A(Brand\";v=\"8\", \"Chromium\";v=\"132\", \"Google Chrome\";v=\"132\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "sec-ch-ua-platform-version",
+						"value": "\"10.0.0\""
+					},
+					{
+						"key": "sec-ch-viewport-width",
+						"value": "1226"
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "document"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "navigate"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-origin"
+					},
+					{
+						"key": "sec-fetch-user",
+						"value": "?1"
+					},
+					{
+						"key": "upgrade-insecure-requests",
+						"value": "1"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "viewport-width",
+						"value": "1226"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "arb",
+							"value": "f7659f93-f1eb-4522-b17a-8410abbb120b",
+							"type": "text"
+						},
+						{
+							"key": "orig_return_to",
+							"value": "https://www.amazon.in/ap/forgotpassword?openid.pape.preferred_auth_policies=http%3A%2F%2Fschemas.openid.net%2Fpape%2Fpolicies%2F2007%2F06%2Fnone&openid.pape.max_auth_age=900&openid.return_to=https%3A%2F%2Fwww.amazon.in%2Fgp%2Fhomepage.html%3F_encoding%3DUTF8%26ref_%3Dnavm_em_signin%26action%3Dsign-out%26path%3D%252Fgp%252Fhomepage.html%253F_encoding%253DUTF8%2526ref_%253Dnavm_em_signin%26signIn%3D1%26useRedirectOnSuccess%3D1%26ref_%3Dnav_em_signout_0_1_1_40&data=eyJ6aXAiOiJERUYiLCJlbmMiOiJBMjU2R0NNIiwiYWxnIjoiQTI1NktXIn0.l-MUBjure5JPPPyPeRBSylqbX-xyNnniaViRGV3H6B7DiesmlrG5vg.C0zr8CxmNKKL2yXz.GS4O0FozvuUh-5c5YiCO-aDBJwh7VJfR4Ta9XCjRkbY0mR4w0PCb34mZ_nbdk8BHUmeQhL3cS9rwTlQMeLjKDfH_REli7PvPeK59BGOyPaMSjhERiPhGikUbo-TXgOLsmmYof0aPIEb0tGDFmNNW_v1sK_S_tKuwryACdFC7RCOJbL2HE25EF83-MfQ.y7YBr_l_P-niSTajDve5HA&openid.assoc_handle=inflex&openid.mode=checkid_setup&pageId=inflex&useSHuMAWorkflow=false&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0",
+							"type": "text"
+						},
+						{
+							"key": "pageId",
+							"value": "inflex",
+							"type": "text"
+						},
+						{
+							"key": "openid.assoc_handle",
+							"value": "inflex",
+							"type": "text"
+						},
+						{
+							"key": "sif_profile",
+							"value": "ChimeraPasswordCollectionEU",
+							"type": "text"
+						},
+						{
+							"key": "sifProfileSrcUrl",
+							"value": "https://static.siege-amazon.com/prod/profiles/ChimeraPasswordCollectionEU.js",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "AYAAFLw4n7PclJZ2Udk4oLBiQOEAAAABAAZzaTptZDUAIGRjMzIzZjY5MjIzNDQwNDY4MTM0ZTc4MTE1OGUwNjdjAQBVbLP6ZVHoCqbCJ1rqYphCik6yirEnGVQ8Z4BpD4lk2lMDVjB80nYqoKEjIggtG52eCekAZBN/LeDbTIbKWz1tWfrO1MTyrMNRuRnhM42dhk3tuSJsQmdtRGXVbMw9yQEcFrvtNTdDFAt5ro3pnL8+0YnZkqGOmvQHxVp24/DYRdstzh/merWTdk/3pib4bs1MDOJ2DoEIyYee8ynG6x3bE5efCmXD3X5A25V7W9wMZx1TZeknxl7kdPR5BXGSgh03n1coH2m207U0XmFdH2QXgjgM/BuXT5IkoM8ZBtu18BNpeKbpwycb+jxputjqwtxHhovkkgkcIkcXHZs0uEfNAgAAAAAMAAAACgAAAAAAAAAAAAAAAFm/PB5S6w3TG3kQzS36j3j/////AAAAAQAAAAAAAAAAAAAAAQAAAAk3C/ikl7PD5Cdvrn3pIHoZnly50rxhDLqA",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://www.amazon.in/ap/cvf/accountrecovery/collectnewpassword?sif_profile=cse_processed_form",
+					"protocol": "https",
+					"host": [
+						"www",
+						"amazon",
+						"in"
+					],
+					"path": [
+						"ap",
+						"cvf",
+						"accountrecovery",
+						"collectnewpassword"
+					],
+					"query": [
+						{
+							"key": "sif_profile",
+							"value": "cse_processed_form"
+						}
+					]
+				},
+				"description": "Generated from cURL: curl 'https://www.amazon.in/ap/cvf/accountrecovery/collectnewpassword?sif_profile=cse_processed_form' \\\r\n  -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7' \\\r\n  -H 'accept-language: en-US,en;q=0.9' \\\r\n  -H 'cache-control: max-age=0' \\\r\n  -H 'content-type: application/x-www-form-urlencoded' \\\r\n  -H 'cookie: session-id=258-1688510-9931462; ubid-acbin=261-6422916-2929130; id_pkel=n0; id_pk=eyJuIjoiMCIsImFmIjoiMSJ9; csm-sid=866-1686896-2439545; sst-acbin=Sst1|PQHN1D178rI90hsQLCLsMOP9Bx04b7i0pUJGRC7UQPNr18484wWh8SuYLI1fM0Wpwd8s-A2Zmsg9WF3xiGo3ResaXCxjVCFar3Tuh_6kWaXzaQ_ZvvvtFExtz57mY32f0hxYbB3KhJJq_Jo5scLEvhyEkKXQa9UjIFmnIwgX8PPEZbcJ13RnJSYpnXtaPPOCiF-O5WhwL3zrjCms6UAdOuRxwFhnKp5WUDA7aAQstx3ZszF39DjU31bf8On9kyySpLST; i18n-prefs=INR; csm-hit=tb:WKPM1XF0VYKDE0D1F0A5+s-10R1RKYAK78D50FGNQVN|1738938450099&t:1738938450099&adb:adblk_no; JSESSIONID=526FD7CEC07AFA1A03F2566A76E94FAD; session-id-time=2082787201l; session-token=Jvp3D45D4BDtrf3vvtR1aayP0v6b35w7caGvhGGw+bMxraY5fM+mTaWmR9Bd8LHRtlw+DPkuiuC/gnkethwV8kuA3SuD3lgL3PmT8QXtAEuPo5R7mKLmBzScYf8aAaloyTPkyFIsNK/6JJ3yOtHs7YKCsbh5cj44AWQ1Oc+9WI2QPbae3uN+6lLlL6vRcPnGasctwiGnPEE8ytFsy9V4yBeEYXMUl/Al3XwShuA211dyNQluO/9jIb2jxebgVsYoSvFcCri55fDX5CX+1Xufi9AzJLLQFJ6jPX1qzueHdTOvY+tB1NqIz0kA3p4Z3G7CWWZken5ajiDLscMJ46qweyOUDL6EcfsV' \\\r\n  -H 'device-memory: 4' \\\r\n  -H 'downlink: 10' \\\r\n  -H 'dpr: 1' \\\r\n  -H 'ect: 4g' \\\r\n  -H 'origin: https://www.amazon.in' \\\r\n  -H 'priority: u=0, i' \\\r\n  -H 'referer: https://www.amazon.in/ap/cvf/accountrecovery/collectnewpassword?arb=f7659f93-f1eb-4522-b17a-8410abbb120b&orig_return_to=https%3A%2F%2Fwww.amazon.in%2Fap%2Fforgotpassword%3Fopenid.pape.preferred_auth_policies%3Dhttp%253A%252F%252Fschemas.openid.net%252Fpape%252Fpolicies%252F2007%252F06%252Fnone%26openid.pape.max_auth_age%3D900%26openid.return_to%3Dhttps%253A%252F%252Fwww.amazon.in%252Fgp%252Fhomepage.html%253F_encoding%253DUTF8%2526ref_%253Dnavm_em_signin%2526action%253Dsign-out%2526path%253D%25252Fgp%25252Fhomepage.html%25253F_encoding%25253DUTF8%252526ref_%25253Dnavm_em_signin%2526signIn%253D1%2526useRedirectOnSuccess%253D1%2526ref_%253Dnav_em_signout_0_1_1_40%26data%3DeyJ6aXAiOiJERUYiLCJlbmMiOiJBMjU2R0NNIiwiYWxnIjoiQTI1NktXIn0.l-MUBjure5JPPPyPeRBSylqbX-xyNnniaViRGV3H6B7DiesmlrG5vg.C0zr8CxmNKKL2yXz.GS4O0FozvuUh-5c5YiCO-aDBJwh7VJfR4Ta9XCjRkbY0mR4w0PCb34mZ_nbdk8BHUmeQhL3cS9rwTlQMeLjKDfH_REli7PvPeK59BGOyPaMSjhERiPhGikUbo-TXgOLsmmYof0aPIEb0tGDFmNNW_v1sK_S_tKuwryACdFC7RCOJbL2HE25EF83-MfQ.y7YBr_l_P-niSTajDve5HA%26openid.assoc_handle%3Dinflex%26openid.mode%3Dcheckid_setup%26pageId%3Dinflex%26useSHuMAWorkflow%3Dfalse%26openid.ns%3Dhttp%253A%252F%252Fspecs.openid.net%252Fauth%252F2.0&pageId=inflex&openid.assoc_handle=inflex' \\\r\n  -H 'rtt: 100' \\\r\n  -H 'sec-ch-device-memory: 4' \\\r\n  -H 'sec-ch-dpr: 1' \\\r\n  -H 'sec-ch-ua: \"Not A(Brand\";v=\"8\", \"Chromium\";v=\"132\", \"Google Chrome\";v=\"132\"' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' \\\r\n  -H 'sec-ch-ua-platform-version: \"10.0.0\"' \\\r\n  -H 'sec-ch-viewport-width: 1226' \\\r\n  -H 'sec-fetch-dest: document' \\\r\n  -H 'sec-fetch-mode: navigate' \\\r\n  -H 'sec-fetch-site: same-origin' \\\r\n  -H 'sec-fetch-user: ?1' \\\r\n  -H 'upgrade-insecure-requests: 1' \\\r\n  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36' \\\r\n  -H 'viewport-width: 1226' \\\r\n  --data-raw 'arb=f7659f93-f1eb-4522-b17a-8410abbb120b&orig_return_to=https%3A%2F%2Fwww.amazon.in%2Fap%2Fforgotpassword%3Fopenid.pape.preferred_auth_policies%3Dhttp%253A%252F%252Fschemas.openid.net%252Fpape%252Fpolicies%252F2007%252F06%252Fnone%26openid.pape.max_auth_age%3D900%26openid.return_to%3Dhttps%253A%252F%252Fwww.amazon.in%252Fgp%252Fhomepage.html%253F_encoding%253DUTF8%2526ref_%253Dnavm_em_signin%2526action%253Dsign-out%2526path%253D%25252Fgp%25252Fhomepage.html%25253F_encoding%25253DUTF8%252526ref_%25253Dnavm_em_signin%2526signIn%253D1%2526useRedirectOnSuccess%253D1%2526ref_%253Dnav_em_signout_0_1_1_40%26data%3DeyJ6aXAiOiJERUYiLCJlbmMiOiJBMjU2R0NNIiwiYWxnIjoiQTI1NktXIn0.l-MUBjure5JPPPyPeRBSylqbX-xyNnniaViRGV3H6B7DiesmlrG5vg.C0zr8CxmNKKL2yXz.GS4O0FozvuUh-5c5YiCO-aDBJwh7VJfR4Ta9XCjRkbY0mR4w0PCb34mZ_nbdk8BHUmeQhL3cS9rwTlQMeLjKDfH_REli7PvPeK59BGOyPaMSjhERiPhGikUbo-TXgOLsmmYof0aPIEb0tGDFmNNW_v1sK_S_tKuwryACdFC7RCOJbL2HE25EF83-MfQ.y7YBr_l_P-niSTajDve5HA%26openid.assoc_handle%3Dinflex%26openid.mode%3Dcheckid_setup%26pageId%3Dinflex%26useSHuMAWorkflow%3Dfalse%26openid.ns%3Dhttp%253A%252F%252Fspecs.openid.net%252Fauth%252F2.0&pageId=inflex&openid.assoc_handle=inflex&sif_profile=ChimeraPasswordCollectionEU&sifProfileSrcUrl=https%3A%2F%2Fstatic.siege-amazon.com%2Fprod%2Fprofiles%2FChimeraPasswordCollectionEU.js&password=AYAAFLw4n7PclJZ2Udk4oLBiQOEAAAABAAZzaTptZDUAIGRjMzIzZjY5MjIzNDQwNDY4MTM0ZTc4MTE1OGUwNjdjAQBVbLP6ZVHoCqbCJ1rqYphCik6yirEnGVQ8Z4BpD4lk2lMDVjB80nYqoKEjIggtG52eCekAZBN%2FLeDbTIbKWz1tWfrO1MTyrMNRuRnhM42dhk3tuSJsQmdtRGXVbMw9yQEcFrvtNTdDFAt5ro3pnL8%2B0YnZkqGOmvQHxVp24%2FDYRdstzh%2FmerWTdk%2F3pib4bs1MDOJ2DoEIyYee8ynG6x3bE5efCmXD3X5A25V7W9wMZx1TZeknxl7kdPR5BXGSgh03n1coH2m207U0XmFdH2QXgjgM%2FBuXT5IkoM8ZBtu18BNpeKbpwycb%2BjxputjqwtxHhovkkgkcIkcXHZs0uEfNAgAAAAAMAAAACgAAAAAAAAAAAAAAAFm%2FPB5S6w3TG3kQzS36j3j%2F%2F%2F%2F%2FAAAAAQAAAAAAAAAAAAAAAQAAAAk3C%2Fikl7PD5Cdvrn3pIHoZnly50rxhDLqA'"
+			},
+			"response": []
+		}
+	]
+}
